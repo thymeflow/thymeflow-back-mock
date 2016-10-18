@@ -14,6 +14,7 @@ module.exports = function (app) {
           "attributes":
           {
             "source":"Calendar",
+            "name": "task 2",
             "endDate":"2016-10-17T13:21:01.063Z",
             "service":"Google",
             "status":"done",
@@ -28,6 +29,7 @@ module.exports = function (app) {
           "attributes":
           {
             "source":"Contacts",
+            "name": "task 3",
             "endDate":"2016-10-17T13:21:01.087Z",
             "service":"Google",
             "status":"done",
@@ -43,6 +45,7 @@ module.exports = function (app) {
           {
             "source":"Facebook",
             "service":"Facebook",
+            "name": "task 4",
             "progress":12,
             "status":"working",
             "account":"account@provider.com",
@@ -57,6 +60,7 @@ module.exports = function (app) {
           {
             "source":"Emails",
             "service":"Google",
+            "name": "task 1",
             "progress":22,
             "status":"working",
             "account":"account@provider.com",
