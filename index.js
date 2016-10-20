@@ -12,7 +12,8 @@ var allowCrossDomain = function(req, res, next) {
 
 app.use(allowCrossDomain);
 
-require('./routes/system-task.js')(app);
+require('./routes/system-tasks.js')(app);
+require('./routes/data-services.js')(app);
 
 var server = app.listen(8080, function () {
   console.log('Mock Server running at http://localhost:8080/');
